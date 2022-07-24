@@ -101,7 +101,6 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
     version: "1.8.0"
   nested:
     dependency: transitive
@@ -110,8 +109,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-=======
-    version: "1.7.0"
   page_transition:
     dependency: transitive
     description:
@@ -119,14 +116,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.9"
->>>>>>> 452f7a86955488def655345ac7fc70dd29b2a68f
   path:
     dependency: transitive
     description:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
     version: "1.8.2"
   provider:
     dependency: "direct main"
@@ -135,9 +130,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "6.0.3"
-=======
-    version: "1.8.1"
->>>>>>> 452f7a86955488def655345ac7fc70dd29b2a68f
   responsive_sizer:
     dependency: "direct main"
     description:
