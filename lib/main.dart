@@ -6,6 +6,8 @@ import 'package:docs/screens/home_screen/home_screen.dart';
 import 'package:docs/screens/loginScreen/LoginScreen.dart';
 import "package:flutter/material.dart";
 import 'package:provider/provider.dart';
+import 'package:docs/screens/splash_screen/splash_screen.dart';
+import "package:flutter/material.dart";
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 void main() {
@@ -26,8 +28,9 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider(create: (context) => SpecLoginController()),
         ],
         child: MaterialApp(
+          home: const Splash(),
+          theme: ThemeData(primarySwatch: Colors.green),
           debugShowCheckedModeBanner: false,
-          home: LoginScreen(),
         ),
       ),
     );
