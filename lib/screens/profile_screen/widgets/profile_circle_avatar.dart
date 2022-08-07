@@ -29,14 +29,14 @@ class ProfileCircleAvatar extends StatelessWidget {
             style: TextStyles.userNameTextStyle,
           ),
           Text(
-            "certification",
+            "Specialization",
             style: TextStyles.detailsTextStyle,
           ),
           Text(
             "Patients : 5",
             style: TextStyles.detailsTextStyle,
           ),
-          Divider()
+          const Divider()
         ],
       ),
     );

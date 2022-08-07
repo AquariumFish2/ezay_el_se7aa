@@ -1,6 +1,7 @@
+
 import 'package:docs/screens/home_screen/widgets/custom_divider.dart';
-import 'package:docs/screens/home_screen/widgets/widgets/drawer_list_tile.dart';
-import 'package:docs/screens/home_screen/widgets/widgets/drawer_profile_avatar.dart';
+import 'package:docs/screens/home_screen/widgets/drawer/widgets/drawer_list_tile.dart';
+import 'package:docs/screens/home_screen/widgets/drawer/widgets/drawer_profile_avatar.dart';
 import 'package:flutter/material.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -13,7 +14,9 @@ class AppDrawer extends StatelessWidget {
         children: const [
           DrawerProfileAvatar(),
           CustomDivider(),
-          DrawerListTile(title: 'Volanteers Details',),
+          DrawerListTile(
+            title: 'Volanteers Details',
+          ),
           CustomDivider(),
           DrawerListTile(title: 'My Patients'),
           CustomDivider(),

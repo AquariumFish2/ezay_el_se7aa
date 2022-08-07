@@ -1,4 +1,4 @@
-import 'package:docs/screens/home_screen/widgets/drawer.dart';
+import 'package:docs/screens/home_screen/widgets/drawer/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
